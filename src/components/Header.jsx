@@ -27,11 +27,11 @@ function Header() {
         </li>
 
 
-        <li>
+        {/* <li>
           <NavLink to = "/user" className={({isActive})=>isActive?"bg-lime-400 p-2 font-bold":"text-black"}>
             User
             </NavLink>
-        </li>
+        </li> */}
       </ul>
 
     </nav>
