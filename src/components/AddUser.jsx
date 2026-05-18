@@ -24,7 +24,7 @@ function AddUser() {
       mobileNumber: data.mobile,
     };
 
-    let res = await fetch("http://localhost:4000/user-api/users", {
+    let res = await fetch("https://usermanagementapp-backend-x8f4.onrender.com/user-api/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
